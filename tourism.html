@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempat Wisata Terbaik di Indonesia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Indonesia Tourism</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="culture.html">Kebudayaan</a></li>
+                    <li><a href="tourism.html">Tempat Wisata</a></li>
+                    <li><a href="hotels.html">Hotel</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button id="booking-button">Booking</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="info-section">
+            <h2>Tempat Wisata Terbaik di Indonesia</h2>
+            <div class="tourism-item">
+                <img src="Gambar/Tempat Wisata Terbaik di Indonesia/sebastian-pena-lambarri-U_i6h9Y50wQ-unsplash.jpg" alt="Bali">
+                <p>Bali adalah salah satu destinasi wisata terbaik di dunia yang terkenal dengan pantainya yang indah, budaya yang kaya, dan kehidupan malam yang semarak.</p>
+            </div>
+            <div class="tourism-item">
+                <img src="Gambar/Tempat Wisata Terbaik di Indonesia/tandya-rachmat-18CyoDR6q2w-unsplash.jpg" alt="Lombok">
+                <p>Lombok adalah pulau indah yang terkenal dengan pantai-pantainya yang eksotis, Gunung Rinjani yang megah, dan Gili Islands yang menawan.</p>
+            </div>
+            <div class="tourism-item">
+                <img src="Gambar/Tempat Wisata Terbaik di Indonesia/eugenia-clara-_QTeGT478_8-unsplash.jpg" alt="Yogyakarta">
+                <p>Yogyakarta adalah kota yang kaya akan sejarah dan budaya, dikenal sebagai pusat seni dan pendidikan serta rumah bagi Keraton Yogyakarta.</p>
+            </div>
+            <div class="tourism-item">
+                <img src="Gambar/Tempat Wisata Terbaik di Indonesia/steffen-bertram-28joUilHigc-unsplash.jpg" alt="Candi Borobudur">
+                <p>Candi Borobudur adalah candi Buddha terbesar di dunia yang terletak di Magelang, Jawa Tengah, dan menjadi salah satu situs warisan dunia UNESCO.</p>
+            </div>
+            <div class="tourism-item">
+                <img src="Gambar/Tempat Wisata Terbaik di Indonesia/alessio-roversi-EYHMtABHYf8-unsplash.jpg" alt="Gunung Bromo">
+                <p>Gunung Bromo adalah gunung berapi aktif yang terletak di Jawa Timur, terkenal dengan pemandangan matahari terbit yang spektakuler dan lautan pasir yang luas.</p>
+            </div>
+        </section>
+    </main>
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <form id="booking-form">
+                <h2>Booking Form</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="hotel">Hotel:</label>
+                <input type="text" id="hotel" name="hotel" required>
+                <label for="checkin">Check-in:</label>
+                <input type="date" id="checkin" name="checkin" required>
+                <label for="checkout">Check-out:</label>
+                <input type="date" id="checkout" name="checkout" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Indonesia Tourism adalah platform terbaik untuk menemukan keindahan dan keunikan Indonesia.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Email: bayupw86@gmail.com</li>
+                    <li>Phone: +62 896 7572 3233</li>
+                    <li>Address: JL.H.NIDI, Bojongsari</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul class="social-media">
+                    <li><a href="https://www.facebook.com/profile.php?id=100022941286504"><img src="Gambar/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="https://www.instagram.com/mbayupw_/"><img src="Gambar/instagram.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Indonesia Tourism. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

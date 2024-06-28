@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebudayaan Indonesia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Indonesia Tourism</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="culture.html">Kebudayaan</a></li>
+                    <li><a href="tourism.html">Tempat Wisata</a></li>
+                    <li><a href="hotels.html">Hotel</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button id="booking-button">Booking</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="info-section">
+            <h2>Kebudayaan Indonesia</h2>
+            <div class="culture-category">
+                <h3>Tarian Tradisional</h3>
+                <div class="culture-item">
+                    <img src="Gambar/Kebudayaan Indonesia/Legong.jpg" alt="Tarian Reog">
+                    <p>Tarian Reog merupakan salah satu tarian tradisional yang berasal dari Jawa Timur. Tarian ini terkenal dengan topeng besar yang dikenakan oleh penarinya.</p>
+                </div>
+                <div class="culture-item">
+                    <img src="Gambar/Kebudayaan Indonesia/den-JlUfDpXsuuM-unsplash.jpg" alt="Tari Kecak">
+                    <p>Tari Kecak adalah tarian tradisional Bali yang terkenal dengan pertunjukan drama tari yang melibatkan banyak penari laki-laki yang duduk melingkar dan meneriakkan "cak".</p>
+                </div>
+                <div class="culture-item">
+                    <img src="Gambar/Kebudayaan Indonesia/yoyo-hins-itta-Pn9gL6gZiuk-unsplash.jpg" alt="Tari Legong">
+                    <p>Tari Legong adalah tarian klasik Bali yang sangat halus dan penuh dengan gerakan tarian yang kompleks, biasanya ditarikan oleh gadis-gadis muda.</p>
+                </div>
+            </div>
+            <div class="culture-category">
+                <h3>Upacara Adat</h3>
+                <div class="culture-item">
+                    <img src="Gambar/Upacara Adat/krisna-yuda-14epUPfSse4-unsplash.jpg" alt="Upacara Nyepi">
+                    <p>Upacara Nyepi adalah hari raya umat Hindu di Bali yang dirayakan dengan melakukan tapa, brata, yoga, dan semadhi untuk menyucikan Bhuana Alit (alam manusia) dan Bhuana Agung (alam semesta).</p>
+                </div>
+                <div class="culture-item">
+                    <img src="Gambar/Upacara Adat/aditya-nara--SS0hpli2eY-unsplash.jpg" alt="Hari Raya Galungan">
+                    <p>Hari Raya Galungan adalah perayaan kemenangan dharma (kebenaran) melawan adharma (kebatilan) yang dirayakan oleh umat Hindu di Bali.</p>
+                </div>
+            </div>
+            <div class="culture-category">
+                <h3>Tradisi</h3>
+                <div class="culture-item">
+                    <img src="Gambar/Tradisi/lighten-up-Ky9DkDlwkXI-unsplash.jpg" alt="Wayang Kulit">
+                    <p>Wayang Kulit adalah seni pertunjukan boneka kulit yang dimainkan oleh seorang dalang dan diiringi dengan gamelan.</p>
+                </div>
+                <div class="culture-item">
+                    <img src="Gambar/Tradisi/mahmur-marganti-8Bg8N8HtiWI-unsplash.jpg" alt="Batik">
+                    <p>Batik adalah kain bergambar yang pembuatannya secara khusus dengan menuliskan atau menerakan malam pada kain, kemudian pengolahannya diproses dengan cara tertentu yang memiliki kekhasan.</p>
+                </div>
+                <div class="culture-item">
+                    <img src="Gambar/Tradisi/Keris.jpg" alt="Kris">
+                    <p>Kris adalah senjata tradisional Indonesia yang dianggap memiliki kekuatan spiritual dan digunakan sebagai benda pusaka serta dalam upacara adat.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <form id="booking-form">
+                <h2>Booking Form</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="hotel">Hotel:</label>
+                <input type="text" id="hotel" name="hotel" required>
+                <label for="checkin">Check-in:</label>
+                <input type="date" id="checkin" name="checkin" required>
+                <label for="checkout">Check-out:</label>
+                <input type="date" id="checkout" name="checkout" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Indonesia Tourism adalah platform terbaik untuk menemukan keindahan dan keunikan Indonesia.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Email: bayupw86@gmail.com</li>
+                    <li>Phone: +62 896 7572 3233</li>
+                    <li>Address: JL.H.NIDI, Bojongsari</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul class="social-media">
+                    <li><a href="https://www.facebook.com/profile.php?id=100022941286504"><img src="Gambar/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="https://www.instagram.com/mbayupw_/"><img src="Gambar/instagram.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Indonesia Tourism. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
